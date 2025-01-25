@@ -1,7 +1,7 @@
 export default {
 	//conexão entre o sequelize e o banco de dados postgres
 	dialect: "postgres",
-	host: "localhost",
+	host: "127.0.0.1",
 	username: "postgres",
 	password: "postgres",
 	database: "devburger",

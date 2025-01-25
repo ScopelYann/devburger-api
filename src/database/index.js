@@ -20,7 +20,7 @@ class DataBase {
 	init() {
 		this.conection = new Sequelize({
 			dialect: "postgres",
-			host: "localhost",
+			host: "postgres-burger",
 			username: "postgres",
 			password: "postgres",
 			database: "devburger",
@@ -34,7 +34,7 @@ class DataBase {
 
 	mongo() {
 		this.mongoConnection = mongoose.connect(
-			"mongodb://localhost:27017/devburger",
+			"mongodb://mongo-burger:27017/devburger",
 		);
 	}
 
